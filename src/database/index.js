@@ -18,7 +18,7 @@ class Database {
     this.init();
   }
 
-  // Connecting to the SQL database (MySQL)
+  // Connecting to the SQL database (PostgreSQL)
   init() {
     this.connection = new Sequelize(databaseConfig);
 
